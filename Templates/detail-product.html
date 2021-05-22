@@ -45,18 +45,18 @@
                             <a href="/shop" class="nav-link">Shop</a>
                         </li>
                         <li class="nav-item">
-                            <a href="accounts/register" class="nav-link">Register</a>
+                            <a href="../accounts/register" class="nav-link">Register</a>
                         </li>
                         <li class="nav-item">
-                            <a href="accounts/login" class="nav-link">Login</a>
+                            <a href="../accounts/login" class="nav-link">Login</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="javascript:void(0)" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <div class="avatar-header"><img src="{% static '../static/img/logo/avatar.jpg' %}"></div> John Doe
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="/transaction">Transactions History</a>
-                                <a class="dropdown-item" href="/setting">Settings</a>
+                                <a class="dropdown-item" href="../transaction/">Transactions History</a>
+                                <a class="dropdown-item" href="../setting/">Settings</a>
                             </div>
                           </li>
                         <li class="nav-item dropdown">
@@ -123,8 +123,8 @@
                                         </div>
                                     </li>
                                     <li class="d-flex justify-content-between pl-3 pr-3 pt-3">
-                                        <a href="/cart" class="btn btn-secondary">View Cart</a>
-                                        <a href="/checkout" class="btn btn-primary">Checkout</a>
+                                        <a href="/cart/" class="btn btn-secondary">View Cart</a>
+                                        <a href="/checkout/" class="btn btn-primary">Checkout</a>
                                     </li>
                                 </ul>
                             </div>
@@ -161,22 +161,22 @@
                         <div class="slider-thumbnail">
                             <ul class="d-flex flex-wrap p-0 list-unstyled">
                                 <li>
-                                    <a href="{% static '../static/img/meats.jpg' %}" rel="gallerySwitchOnMouseOver: true, popupWin:'assets/img/meats.jpg', useZoom: 'cloudZoom', smallImage: 'assets/img/meats.jpg'" class="cloud-zoom-gallery">
+                                    <a href="{% static '../static/img/meats.jpg' %}" rel="gallerySwitchOnMouseOver: true, popupWin:'../static/img/meats.jpg', useZoom: 'cloudZoom', smallImage: 'assets/img/meats.jpg'" class="cloud-zoom-gallery">
                                         <img itemprop="image" src="{% static '../static/img/meats.jpg' %}" style="width:135px;">
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="{% static '../static/img/fish.jpg' %}" rel="gallerySwitchOnMouseOver: true, popupWin:'assets/img/fish.jpg', useZoom: 'cloudZoom', smallImage: 'assets/img/fish.jpg'" class="cloud-zoom-gallery">
+                                    <a href="{% static '../static/img/fish.jpg' %}" rel="gallerySwitchOnMouseOver: true, popupWin:'../static/img/fish.jpg', useZoom: 'cloudZoom', smallImage: 'assets/img/fish.jpg'" class="cloud-zoom-gallery">
                                         <img itemprop="image" src="{% static '../static/img/fish.jpg' %}" style="width:135px;">
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="{% static '../static/img/vegetables.jpg' %}" rel="gallerySwitchOnMouseOver: true, popupWin:'assets/img/vegetables.jpg', useZoom: 'cloudZoom', smallImage: 'assets/img/vegetables.jpg'" class="cloud-zoom-gallery">
+                                    <a href="{% static '../static/img/vegetables.jpg' %}" rel="gallerySwitchOnMouseOver: true, popupWin:'../static/img/vegetables.jpg', useZoom: 'cloudZoom', smallImage: 'assets/img/vegetables.jpg'" class="cloud-zoom-gallery">
                                         <img itemprop="image" src="{% static '../static/img/vegetables.jpg' %}" style="width:135px;">
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="{% static '../static/img/frozen.jpg' %}" rel="gallerySwitchOnMouseOver: true, popupWin:'assets/img/frozen.jpg', useZoom: 'cloudZoom', smallImage: 'assets/img/frozen.jpg'" class="cloud-zoom-gallery">
+                                    <a href="{% static '../static/img/frozen.jpg' %}" rel="gallerySwitchOnMouseOver: true, popupWin:'../static/img/frozen.jpg', useZoom: 'cloudZoom', smallImage: 'assets/img/frozen.jpg'" class="cloud-zoom-gallery">
                                         <img itemprop="image" src="{% static '../static/img/frozen.jpg' %}" style="width:135px;">
                                     </a>
                                 </li>
@@ -414,22 +414,22 @@
                     <h5>Links</h5>
                     <ul>
                         <li>
-                            <a href="/about">About</a>
+                            <a href="../about/">About</a>
                         </li>
                         <li>
-                            <a href="/contact">Contact Us</a>
+                            <a href="../contact/">Contact Us</a>
                         </li>
                         <li>
-                            <a href="/faq">FAQ</a>
+                            <a href="../faq/">FAQ</a>
                         </li>
                         <li>
                             <a href="javascript:void(0)">How it Works</a>
                         </li>
                         <li>
-                            <a href="/terms">Terms</a>
+                            <a href="../terms/">Terms</a>
                         </li>
                         <li>
-                            <a href="/privacy">Privacy Policy</a>
+                            <a href="../privacy/">Privacy Policy</a>
                         </li>
                     </ul>
                 </div>
@@ -461,11 +461,11 @@
                      <h5>Get Our App</h5>
                      <ul class="mb-0">
                          <li class="download-app">
-                             <a href="#"><img src="assets/img/playstore.png"></a>
+                             <a href="#"><img src="{% static '../static/img/playstore.png' %}"></a>
                          </li>
                          <li style="height: 200px">
                              <div class="mockup">
-                                 <img src="assets/img/mockup.png">
+                                 <img src="{% static '../static/img/mockup.jpg' %}">
                              </div>
                          </li>
                      </ul>
